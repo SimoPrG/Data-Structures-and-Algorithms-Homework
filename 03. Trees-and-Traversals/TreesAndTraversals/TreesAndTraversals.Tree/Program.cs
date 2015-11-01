@@ -124,6 +124,7 @@ namespace TreesAndTraversals.Tree
                 else
                 {
                     paths.Remove(currentPath);
+                    --i;
                 }
             }
 
