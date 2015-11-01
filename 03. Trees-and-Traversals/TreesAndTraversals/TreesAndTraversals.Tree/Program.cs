@@ -54,16 +54,16 @@ namespace TreesAndTraversals.Tree
             Console.WriteLine($"The middles are {string.Join(", ", FindAllMiddleNodes(treeNodes))}");
             Console.WriteLine($"The longest path is {FindLongestPath(FindRoot(treeNodes))}");
 
-            const int pathSum = 5;
-            Console.WriteLine($"All paths with sum {pathSum}:");
-            foreach (var path in FindAllPathsWithSum(FindRoot(treeNodes), pathSum).Where(p => p.Sum(nd => nd.Element) == pathSum))
+            const int PathSum = 5;
+            Console.WriteLine($"All paths with sum {PathSum}:");
+            foreach (var path in FindAllPathsWithSum(FindRoot(treeNodes), PathSum).Where(p => p.Sum(nd => nd.Element) == PathSum))
             {
                 Console.WriteLine(string.Join(", ", path));
             }
 
-            const int treeSum = 6;
-            Console.WriteLine($"All subtrees with sum {treeSum}:");
-            foreach (var tree in FindAllSubTreesWithSum(FindRoot(treeNodes), treeSum))
+            const int TreeSum = 6;
+            Console.WriteLine($"All subtrees with sum {TreeSum}:");
+            foreach (var tree in FindAllSubTreesWithSum(FindRoot(treeNodes), TreeSum))
             {
                 Console.WriteLine(string.Join(", ", tree));
             }

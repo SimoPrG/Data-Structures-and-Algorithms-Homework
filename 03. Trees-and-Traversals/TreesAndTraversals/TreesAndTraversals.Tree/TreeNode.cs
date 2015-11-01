@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    class TreeNode<T>
+    internal class TreeNode<T>
     {
         public TreeNode(T element)
         {
