@@ -14,6 +14,7 @@
             var masters = new Queue<string>();
             var knights = new Queue<string>();
             var paladins = new Queue<string>();
+			
             for (int i = 0; i < n; i++)
             {
                 switch (jedis[i][0])
