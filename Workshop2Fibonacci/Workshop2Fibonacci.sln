@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop2Fibonacci", "Workshop2Fibonacci\Workshop2Fibonacci.csproj", "{709EAEC3-E1F2-4B5A-AD6B-7B1730B2CE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stools", "Stools\Stools.csproj", "{9AC80F8E-A3ED-403C-B040-633C154E85FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{B5ADFD13-C685-4AD7-9EB3-4FD586E9B5C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{709EAEC3-E1F2-4B5A-AD6B-7B1730B2CE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709EAEC3-E1F2-4B5A-AD6B-7B1730B2CE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709EAEC3-E1F2-4B5A-AD6B-7B1730B2CE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709EAEC3-E1F2-4B5A-AD6B-7B1730B2CE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC80F8E-A3ED-403C-B040-633C154E85FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC80F8E-A3ED-403C-B040-633C154E85FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC80F8E-A3ED-403C-B040-633C154E85FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC80F8E-A3ED-403C-B040-633C154E85FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5ADFD13-C685-4AD7-9EB3-4FD586E9B5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5ADFD13-C685-4AD7-9EB3-4FD586E9B5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5ADFD13-C685-4AD7-9EB3-4FD586E9B5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5ADFD13-C685-4AD7-9EB3-4FD586E9B5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
