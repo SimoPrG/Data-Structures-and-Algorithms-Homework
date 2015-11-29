@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingPatterns", "RepeatingPatterns\RepeatingPatterns.csproj", "{C0A89F8B-12F3-420E-BB2F-D85F4B5CB391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source", "Source\Source.csproj", "{8C044529-79DC-4EA9-8592-9FFFF7ED6BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbits", "Rabbits\Rabbits.csproj", "{FA507EF3-DCBD-4285-84F0-A794855834FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromize", "Palindromize\Palindromize.csproj", "{9DAEC85D-3B54-4153-8E18-0554D84A4EEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A89F8B-12F3-420E-BB2F-D85F4B5CB391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A89F8B-12F3-420E-BB2F-D85F4B5CB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A89F8B-12F3-420E-BB2F-D85F4B5CB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A89F8B-12F3-420E-BB2F-D85F4B5CB391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C044529-79DC-4EA9-8592-9FFFF7ED6BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C044529-79DC-4EA9-8592-9FFFF7ED6BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C044529-79DC-4EA9-8592-9FFFF7ED6BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C044529-79DC-4EA9-8592-9FFFF7ED6BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA507EF3-DCBD-4285-84F0-A794855834FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA507EF3-DCBD-4285-84F0-A794855834FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA507EF3-DCBD-4285-84F0-A794855834FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA507EF3-DCBD-4285-84F0-A794855834FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DAEC85D-3B54-4153-8E18-0554D84A4EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DAEC85D-3B54-4153-8E18-0554D84A4EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DAEC85D-3B54-4153-8E18-0554D84A4EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DAEC85D-3B54-4153-8E18-0554D84A4EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
