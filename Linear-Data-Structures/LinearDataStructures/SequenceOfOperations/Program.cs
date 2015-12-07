@@ -34,7 +34,7 @@ namespace SequenceOfOperations
             {
                 sequence.Enqueue(end);
 
-                if (end / 2 >= start)
+                if (end / 2 > start)
                 {
                     if (end % 2 == 0)
                     {
@@ -57,6 +57,7 @@ namespace SequenceOfOperations
                     }
                 }
             }
+
             return sequence.Reverse();
         }
     }
